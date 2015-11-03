@@ -7,7 +7,7 @@
 <!-- Forces IE to follow modern standards -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<title></title>
+<title>gg study</title>
 <meta name="description" content="">
 
 <!-- Disable zooming on mobile. Useful for responsive design. -->
@@ -15,12 +15,14 @@
 
 <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 
-<link rel="stylesheet" href="/bundle/app.css">
+<link rel="stylesheet" href="bundle/app.css">
 
 </head>
 <body>
-	<div class='section first'>
-		<img class="react-logo" src="/img/react-logo.svg"/>
+<div class='section first intro' id='intro-section'>
+	<div class="overlay"></div>
+	<div class="content">
+		<img class="react-logo" src="img/react-logo.svg"/>
 		<h1>Build Native Apps With React</h1>
 		<div class="nav">
 			<a href="#native">
@@ -39,10 +41,12 @@
 				Flex &amp; Styling
 			</a>
 		</div>
+	</div>
 </div>
-<div class='section second'>
+<div class='section second iphone'>
 	<div class="iphone-demo">
-		<img  class='item' src="img/tumblr-demo.jpg"/>
+			<img  class="frame" src="img/iphone-frame.svg"/>
+			<img  class="cover" src="img/tumblr-demo.jpg"/>
 	</div>
 	<div class="feature-description">
 		<div class="item">
@@ -71,6 +75,25 @@
 </div>
 <div class='section'>
 	<h1>Android Is Supported!</h1>
+	<img id="android-robot" src="img/android-robot.svg"/>
+</div>
+
+<div id="slider-control">
+  <a href="#native" class="active">
+    <div class="dot"></div>
+  </a>
+
+  <a href="#touch">
+    <div class="dot"></div>
+  </a>
+
+  <a href="#async">
+    <div class="dot"></div>
+  </a>
+
+  <a href="#flex">
+    <div class="dot"></div>
+  </a>
 </div>
 </body>
 </html>
