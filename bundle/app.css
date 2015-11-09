@@ -95,6 +95,9 @@ a:hover {
   background-size: cover;
   background-position: center;
 }
+#logo {
+  position: relative;
+}
 .content {
   position: relative;
   z-index: 999;
@@ -178,7 +181,7 @@ margin: 0 auto;
 #android-robot {
   position: absolute;
   right: -5%;
-  bottom: -5%;
+  bottom: -10%;
   -webkit-transform:rotate(-45deg);
       -ms-transform:rotate(-45deg);
           transform:rotate(-45deg);
